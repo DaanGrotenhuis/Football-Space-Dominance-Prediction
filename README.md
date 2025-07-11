@@ -1,5 +1,5 @@
 # Football-Space-Dominance-Prediction
-This project explores how Graph Neural Networks (GNNs) and Long Short-Term Memory (LSTM) models can predict future space dominance in football using real-world tracking data. While traditional models like Voronoi diagrams capture static control of space, this project takes it further by forecasting which player will dominate each area of the pitch up to 3 seconds ahead, based on a 6-second input window.
+This project explores how Graph Neural Networks (GNNs) and Long Short-Term Memory (LSTM) models can predict future space dominance in football using real-world tracking data. While traditional models like Voronoi diagrams capture static control of space, this project takes it further by forecasting which player will dominate each area of the pitch in the near future, based on a input window.
 
 Core Highlights:
 - Input: 5Hz tracking data (x, y coordinates, velocity, team/player IDs, ball position).
@@ -12,3 +12,7 @@ Why It’s Useful:
 - Offers forward-looking spatial analysis for tactical planning, player evaluation, and real-time coaching.
 - Moves beyond static snapshots—modeling how control evolves, not just where it is.
 - Can be integrated into scouting tools, broadcast analytics, or simulation environments.
+
+Simple Visualization:
+<img width="1592" height="672" alt="image" src="https://github.com/user-attachments/assets/11922439-84dd-457c-9423-b853f112fe2b" />
+
